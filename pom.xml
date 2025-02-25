@@ -30,11 +30,6 @@
       </plugins>
     </build>
   <dependencies>
-    <dependency>
-      <groupId>androidx.appcompat</groupId>
-      <artifactId>appcompat</artifactId>
-      <version>1.7.0</version>
-      <scope>runtime</scope>
-    </dependency>
+    
   </dependencies>
 </project>
