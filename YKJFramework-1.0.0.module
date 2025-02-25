@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.edwardyk",
+    "module": "YKJFramework",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "YKJFramework-1.0.0.aar",
+          "url": "YKJFramework-1.0.0.aar",
+          "size": 6939,
+          "sha512": "f7acdda3e20251a9dd6f01880e9d2a68a198e0178d8786c2ae54b9dc0ba3f78f2b047eda68be8928f82217b9f11b2c58bca77f3a30525076481d4bdd9d4a5b7c",
+          "sha256": "96081924b500a5abc438b9ccfc77bea1111b7beebe184264ded116c3302457fb",
+          "sha1": "b02cd8afe9f682f6c829d3098f918f67caf377f7",
+          "md5": "911892634c39030457b56636e54c81c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "YKJFramework-1.0.0.aar",
+          "url": "YKJFramework-1.0.0.aar",
+          "size": 6939,
+          "sha512": "f7acdda3e20251a9dd6f01880e9d2a68a198e0178d8786c2ae54b9dc0ba3f78f2b047eda68be8928f82217b9f11b2c58bca77f3a30525076481d4bdd9d4a5b7c",
+          "sha256": "96081924b500a5abc438b9ccfc77bea1111b7beebe184264ded116c3302457fb",
+          "sha1": "b02cd8afe9f682f6c829d3098f918f67caf377f7",
+          "md5": "911892634c39030457b56636e54c81c2"
+        }
+      ]
+    }
+  ]
+}
