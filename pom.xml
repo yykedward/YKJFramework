@@ -10,35 +10,31 @@
   <groupId>com.edwardyk</groupId>
   <artifactId>YKJFramework</artifactId>
   <version>1.0.0</version>
-<packaging>aar</packaging>
+  <packaging>aar</packaging>
   <build>
-    <plugins>
-      <plugin>
-        <groupId>com.simpligility.maven.plugins</groupId>
-        <artifactId>android-maven-plugin</artifactId>
-        <version>4.1.0</version>
-        <extensions>true</extensions>
-        <configuration>
-          <encoding>utf8</encoding>
-          <source>1.8</source>
-          <target>1.8</target>
-          <sign>
-            <debug>false</debug>
-          </sign>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+      <plugins>
+        <plugin>
+          <groupId>com.simpligility.maven.plugins</groupId>
+          <artifactId>android-maven-plugin</artifactId>
+          <version>4.1.0</version>
+          <extensions>true</extensions>
+          <configuration>
+            <encoding>utf8</encoding>
+            <source>1.8</source>
+            <target>1.8</target>
+            <sign>
+              <debug>false</debug>
+            </sign>
+          </configuration>
+        </plugin>
+      </plugins>
+    </build>
   <dependencies>
     <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
-      <version>1.2.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.android.material</groupId>
-      <artifactId>material</artifactId>
-      <version>1.1.0</version>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
     </dependency>
   </dependencies>
 </project>
