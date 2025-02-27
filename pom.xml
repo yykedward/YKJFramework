@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.edwardyk</groupId>
   <artifactId>YKJFramework</artifactId>
-  <version>1.3</version>
+  <version>1.4</version>
   <packaging>aar</packaging>
   <build>
     <plugins>
@@ -27,7 +27,7 @@
     <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
-      <version>1.2.0</version>
+      <version>1.7.0</version>
     </dependency>
   </dependencies>
 </project>
