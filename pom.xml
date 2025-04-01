@@ -16,9 +16,10 @@
         <plugin>
           <groupId>com.simpligility.maven.plugins</groupId>
           <artifactId>android-maven-plugin</artifactId>
-          <version>4.6.0</version>
+          <version>4.1.0</version>
           <extensions>true</extensions>
           <configuration>
+              <manifest>YKJFramework-1.9.aar/AndroidManifest.xml</manifest>
             <encoding>utf8</encoding>
             <source>1.8</source>
             <target>1.8</target>
