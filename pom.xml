@@ -30,15 +30,6 @@
       </plugins>
     </build>
   <dependencies>
-      <dependency>
-        <groupId>androidx.appcompat</groupId>
-        <artifactId>appcompat</artifactId>
-        <version>1.2.0</version>
-      </dependency>
-      <dependency>
-        <groupId>com.google.android.material</groupId>
-        <artifactId>material</artifactId>
-        <version>1.1.0</version>
-      </dependency>
+      
   </dependencies>
 </project>
